@@ -1,0 +1,97 @@
+body {margin : 0 0 0 0;
+	max-width: 620px;
+	margin-top: 2px;
+	margin-right: auto;
+	margin-bottom: 2px;
+	margin-left: auto;
+	padding: 0px
+font-family: Verdana, Tahoma;
+font-size: inherit;
+color: #222222;
+background: whitesmoke;}
+a:visited, a:link {
+color : #FF4F4F;
+text-decoration:none;
+}a:hover,a:active{
+color:#FF4F4F;}
+.header{background:#FF4F4F;color:#cccccc;padding: 15px;text-align:center;}
+.margin{margin:10px;}
+.title{background:#FF4F4F;padding:8px;color:#FFFFFF;margin-left:10px;margin-right:10px}
+.menu{background:white;border-left:solid 1px #cccccc;border-bottom:solid 1px #cccccc;border-right:solid 1px #cccccc;padding:7px;margin-left:10px;margin-right:10px;}
+.br{padding-top: 10px;}
+.top{border:solid 1px #cccccc;background:white;padding:7px;margin-top:10px;margin-left:10px;margin-right:10px;}.footer{background:#FF4F4F;text-align:center;color:white;padding:10px;}.footer a{color:#FFF;}
+.news{background:#ffffcc;border-left:solid 1px #cccccc;border-right:solid 1px #cccccc;border-bottom:solid 1px #cccccc;padding:5px;margin-left:10px;margin-right:10px;}
+.pagination {background:lavender;margin-left:10px;margin-right:10px;border-right:solid 1px #cccccc;border-left:solid 1px #cccccc;border-bottom:solid 1px #cccccc;padding:7px;}
+.download{background:#FF4F4F;text-align:center;font-weight:bold;border-left:solid 1px #cccccc;border-right:solid 1px #cccccc;border-bottom:solid 1px #cccccc;margin-left:10px;margin-right:10px;padding:12px;color:white;}
+.download2{background:#ffffcc;text-align:center;font-weight:bold;border-left:solid 1px #cccccc;border-right:solid 1px #cccccc;border-bottom:solid 1px #cccccc;margin-left:10px;margin-right:10px;padding:12px;color:white;}
+.jump{background:lavender;border-left:solid 1px #cccccc;border-bottom:solid 1px #cccccc;border-right:solid 1px #cccccc;padding:7px;color:white;}
+input[type='submit'],input[type='button'] {margin:2px;background-color: #FF4F4F; color: #ffffff; border: 1px #FF4F4F solid; padding: 4px;} input,select,textarea {border: 1px #CCC solid; color: #000; font-weight: bold;margin:2px; background-color: #FFFAFA; padding: 4px;}
+textarea{color: #333; background: #FFFAFA;margin:2px; width: 95%; height: 30px; margin-bottom: 2px; padding: 4px; font-family: Arial; font-size: 13px; font-weight: bold; border: 1px solid #CCC;}
+.thumbnail { float:left; max-width:100%; width:100px; height:80px; }
+.pagination a {position:relative;padding:3px 7px;margin:0 2px;border:1px solid #ddd;background:#fff;color:#444;border-radius:3px}
+.cat{background-color:#000;bottom:0;color:#fff;filter:alpha(opacity=75);-moz-opacity:.75;opacity:.75;padding:0 4px;position:absolute;right:0}
+
+
+
+
+.pagination:before, .pagination:after{
+    content: " ";
+    display: block;
+}
+.pagination {
+    display: inline-block;
+    padding-left: 0;
+    margin-top: 5px;
+    border-radius: 5px;    
+}
+.pagination:after,.clear {
+    clear:both
+}
+.pagination > li {
+    display: inline
+}
+.pagination > li > a, .pagination > li > span {
+    position: relative;
+    float: left;
+    padding: 8px 10px;
+    margin-left: -1px;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+.pagination > li:first-child > a, .pagination > li:first-child > span {
+    margin-left: 0;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.pagination > li:last-child > a, .pagination > li:last-child > span {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.pagination > li > a:hover, .pagination > li > span:hover, .pagination > li > a:focus, .pagination > li > span:focus {
+    background-color: #eee;
+    border-color: #ddd;
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    z-index: 2;
+    color: #fff;
+    cursor: default;
+    background-color: #01b1d3;
+    border-color: #01b1d3;
+}
+.pagination > .disabled > span, .pagination > .disabled > span:hover, .pagination > .disabled > span:focus, .pagination > .disabled > a, .pagination > .disabled > a:hover, .pagination > .disabled > a:focus {
+    color: #777;
+    cursor: not-allowed;
+    background-color: #fff;
+    border-color: #ddd;
+}
+
+
+
+
+.thumbnail {
+    float:left;
+    max-width:100%;
+    width:80px;
+    height:80px;
+}
